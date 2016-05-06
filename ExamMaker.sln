@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Data", "ExamMaker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.ConsoleApp", "ExamMaker.ConsoleApp\ExamMaker.ConsoleApp.csproj", "{89C35FEE-A3D7-4511-A1B2-D212E302B462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Business", "ExamMaker.Business\ExamMaker.Business.csproj", "{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,9 +3,9 @@ using System;
 using Xunit;
 
 namespace ExamMaker.Tests.CoreTests {
-    public class MeasurerTest {
+    public class AppraiserTest {
         Appraiser measurer;
-        public MeasurerTest() {
+        public AppraiserTest() {
             measurer = new Appraiser("John Doe", "00438974208");
         }
 

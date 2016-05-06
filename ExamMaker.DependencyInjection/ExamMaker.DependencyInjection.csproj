@@ -65,6 +65,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ExamMaker.Business\ExamMaker.Business.csproj">
+      <Project>{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}</Project>
+      <Name>ExamMaker.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ExamMaker.Core\ExamMaker.Core.csproj">
       <Project>{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}</Project>
       <Name>ExamMaker.Core</Name>

@@ -3,6 +3,7 @@ using ExamMaker.Core.Interfaces.Repositories;
 using ExamMaker.Core.Models;
 using ExamMaker.Data.Context;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ExamMaker.Data.Repository {
     public class AppraiserRepository : IAppraiserRepository {
@@ -38,6 +39,10 @@ namespace ExamMaker.Data.Repository {
 
         public void Dispose() {
             context.Dispose();
+        }
+
+        public IEnumerable<Appraiser> GetAll(int limit, int offset) {
+            return context.Appraisers.OrderBy(a => a.Name).Skip(offset).Take(limit).ToList();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using ExamMaker.Core.Interfaces.Repositories;
+using ExamMaker.Core.Interfaces.Services;
 using ExamMaker.Core.Models;
 using ExamMaker.DependencyInjection;
 using Microsoft.Practices.Unity;
@@ -11,16 +12,15 @@ namespace ExamMaker.ConsoleApp {
             UnityContainer container = new UnityContainer();
             DependencyResolver.Resolve(container);
 
-            using (var repository = container.Resolve<IAppraiserRepository>())
+            using (var service = container.Resolve<IAppraiserService>())
             {
                 try
                 {
-                    Appraiser appraiser = new Appraiser("John Doe", "00448775608");
+                    Appraiser appraiser = new Appraiser("John Doe", "00448775618");
+                    
+                    service.Create(appraiser);
 
-                    appraiser.Validate();
-                    repository.Create(appraiser);
-
-                    Appraiser appr = repository.Get(appraiser.Cpf);
+                    Appraiser appr = service.GetByCpf(appraiser.Cpf);
                     if (appr.Validate())
                     {
                         Console.WriteLine("Appraiser Name: " + appr.Name);

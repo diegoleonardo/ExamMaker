@@ -61,6 +61,24 @@ namespace ExamMaker.Utils.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Appraiser not found.
+        /// </summary>
+        public static string AppraiserNotFound {
+            get {
+                return ResourceManager.GetString("AppraiserNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Duplicate CPF.
+        /// </summary>
+        public static string DuplicateCpf {
+            get {
+                return ResourceManager.GetString("DuplicateCpf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid CPF length.
         /// </summary>
         public static string InvalidCpfLength {

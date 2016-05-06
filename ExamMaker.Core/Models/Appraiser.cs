@@ -8,7 +8,7 @@ namespace ExamMaker.Core.Models {
         public string Name { get; set; }
         public string Cpf { get; set; }
 
-        //Entity
+        //Entity Framework
         protected Appraiser() {}
 
         public Appraiser(string name, string cpf) {            

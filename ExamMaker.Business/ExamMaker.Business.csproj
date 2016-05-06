@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}</ProjectGuid>
+    <ProjectGuid>{5334C0FB-3434-42F7-B4E8-48E6E248BF7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExamMaker.Core</RootNamespace>
-    <AssemblyName>ExamMaker.Core</AssemblyName>
+    <RootNamespace>ExamMaker.Business</RootNamespace>
+    <AssemblyName>ExamMaker.Business</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\Repositories\IAppraiserRepository.cs" />
-    <Compile Include="Interfaces\Services\IAppraiserService.cs" />
-    <Compile Include="Models\Appraiser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AppraiserService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ExamMaker.Core\ExamMaker.Core.csproj">
+      <Project>{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}</Project>
+      <Name>ExamMaker.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamMaker.Data\ExamMaker.Data.csproj">
+      <Project>{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}</Project>
+      <Name>ExamMaker.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ExamMaker.Utils\ExamMaker.Utils.csproj">
       <Project>{E5167DC8-2491-471E-89D5-2376F95D406B}</Project>
       <Name>ExamMaker.Utils</Name>

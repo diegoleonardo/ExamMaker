@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace ExamMaker.Core.Interfaces.Repositories {
-    public interface IAppraiserRepository : IDisposable{
+namespace ExamMaker.Core.Interfaces.Services {
+    public interface IAppraiserService : IDisposable {
         void Create(Appraiser appraiser);
-        Appraiser Get(Guid Id);
-        Appraiser Get(string cpf);
+        Appraiser GetById(Guid id);
+        Appraiser GetByCpf(string cpf);
         IEnumerable<Appraiser> GetAll(int limit, int offset);
         void Delete(Appraiser appraiser);
         void Update(Appraiser appraiser);
