@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Core", "ExamMaker.Core\ExamMaker.Core.csproj", "{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Utils", "ExamMaker.Utils\ExamMaker.Utils.csproj", "{E5167DC8-2491-471E-89D5-2376F95D406B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Tests", "ExamMaker.Tests\ExamMaker.Tests.csproj", "{FCBE6804-F875-4A5B-BBC4-3C718879186E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.DependencyInjection", "ExamMaker.DependencyInjection\ExamMaker.DependencyInjection.csproj", "{83EAA8ED-7B26-43B6-8C8F-765952CB970A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.Data", "ExamMaker.Data\ExamMaker.Data.csproj", "{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMaker.ConsoleApp", "ExamMaker.ConsoleApp\ExamMaker.ConsoleApp.csproj", "{89C35FEE-A3D7-4511-A1B2-D212E302B462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1DB3C8-BEE6-407A-83D0-BA06CC1BCFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5167DC8-2491-471E-89D5-2376F95D406B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5167DC8-2491-471E-89D5-2376F95D406B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5167DC8-2491-471E-89D5-2376F95D406B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5167DC8-2491-471E-89D5-2376F95D406B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBE6804-F875-4A5B-BBC4-3C718879186E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBE6804-F875-4A5B-BBC4-3C718879186E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBE6804-F875-4A5B-BBC4-3C718879186E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBE6804-F875-4A5B-BBC4-3C718879186E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EAA8ED-7B26-43B6-8C8F-765952CB970A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EAA8ED-7B26-43B6-8C8F-765952CB970A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EAA8ED-7B26-43B6-8C8F-765952CB970A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EAA8ED-7B26-43B6-8C8F-765952CB970A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72EC775-5C22-43B2-8CC9-DCDC732ABF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C35FEE-A3D7-4511-A1B2-D212E302B462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
